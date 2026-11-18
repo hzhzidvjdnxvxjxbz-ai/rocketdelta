@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "com.rocket.delta.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MinecraftClientMixin",
+    "GameRendererMixin",
+    "BackgroundRendererMixin",
+    "InGameHudMixin",
+    "ClientPlayerEntityMixin",
+    "WorldRendererMixin",
+    "InteractionManagerMixin",
+    "ClientConnectionMixin"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}

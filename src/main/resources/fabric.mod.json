@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "rocketdelta",
+  "version": "${version}",
+  "name": "RocketDelta",
+  "description": "RocketDelta client",
+  "authors": ["Rocket Way"],
+  "license": "MIT",
+  "icon": "assets/rocketdelta/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.rocket.delta.RocketDeltaClient"]
+  },
+  "mixins": ["rocketdelta.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
